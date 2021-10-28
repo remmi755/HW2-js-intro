@@ -1,19 +1,26 @@
 console.log('------------------#5');
+
 let a = 4;
 let b = 2;
 console.log(a + b);
 console.log(a - b);
 console.log(a * b);
 console.log(a / b);
+
 console.log('------------------#6');
+
 for (let i = 1; i < 6; i++) {
 console.log(i);
 }
+
 console.log('------------------#7');
+
 for (let i = 5; i > 0; i--) {
     console.log(i);
 }
+
 console.log('-------------------#8');
+
 function getMarkInfo(condition) {
 
    if (condition !== 10) {
@@ -25,6 +32,7 @@ function getMarkInfo(condition) {
 }
 getMarkInfo(10)
 getMarkInfo(1)
+
 console.log('---------------------#9');
 
 function getDayInfo(position) {
@@ -62,11 +70,15 @@ getDayInfo(3)
 getDayInfo(4)
 getDayInfo(5)
 getDayInfo(6)
+
 console.log('---------------------#10');
+
 let arr = ['a','b','c']
 arr.push(1,2,3);
 console.log(arr);
+
 console.log('---------------------#11');
+
 let arrOne = [1,2,3];
 let arrTwo = [4,5,6];
 let arrNew = arrOne.concat(arrTwo);
