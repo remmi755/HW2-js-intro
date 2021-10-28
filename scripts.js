@@ -74,7 +74,7 @@ getDayInfo(6)
 console.log('---------------------#10');
 
 let arr = ['a','b','c']
-arr.push(1,2,3);
+arr.push ('1', '2', '3');
 console.log(arr);
 
 console.log('---------------------#11');
@@ -83,3 +83,23 @@ let arrOne = [1,2,3];
 let arrTwo = [4,5,6];
 let arrNew = arrOne.concat(arrTwo);
 console.log(arrNew);
+
+console.log('---------------------#12');
+
+function countNumber(number) {
+    let sum = 0;
+    if (Number.isInteger(number) === true && number > 0) {
+        for (let i = 0; i <= number; i++) {
+
+            sum = sum + i;
+        }
+    }
+
+    console.log(sum);
+
+
+}
+
+countNumber(3);
+countNumber(5);
+
