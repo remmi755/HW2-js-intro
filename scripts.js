@@ -91,7 +91,7 @@ function countNumber(number) {
     if (Number.isInteger(number) === true && number > 0) {
         for (let i = 0; i <= number; i++) {
 
-            sum = sum + i;
+            sum += i;
         }
     }
 
